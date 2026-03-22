@@ -1,0 +1,32 @@
+playwright -- web and api automation 
+
+python --- programming language 
+pytest -- testing framework developed using python 
+
+playwright -- available as a plugin on top of pytest 
+
+1.Install playwright 
+
+pip install pytest-playwright
+
+2. Install Playwright browsers 
+
+pip install pytest 
+playwright provides browsers in the form of engines .
+chrome , edge - Chromium 
+Firefox - firefox 
+safari - webkit 
+
+1. write test function 
+2. launch url -- by default chromium browser
+3 . assert 
+
+builtin fixture - page 
+by default playwright runs in  - headless mode 
+ how to run in headed mode ? 
+ in cmd add       --headed  , then it will run in headed mode 
+ 
+ Synchronous vs Asynchronous :
+ Pytest + playwright = supports both 
+ others + playwright = supports asynchronous 
+ 
