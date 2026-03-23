@@ -30,3 +30,7 @@ by default playwright runs in  - headless mode
  Pytest + playwright = supports both 
  others + playwright = supports asynchronous (default)
  
+ pytest -v -s test_playwright.py --browser firefox
+ 
+ we can mention any number of browsers -
+ pytest -v -s test_playwright.py --browser firefox --browser chromium
