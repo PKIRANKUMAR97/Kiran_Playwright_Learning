@@ -28,5 +28,5 @@ by default playwright runs in  - headless mode
  
  Synchronous vs Asynchronous :
  Pytest + playwright = supports both 
- others + playwright = supports asynchronous 
+ others + playwright = supports asynchronous (default)
  
